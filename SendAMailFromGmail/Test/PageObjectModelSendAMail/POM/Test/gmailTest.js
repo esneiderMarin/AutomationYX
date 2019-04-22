@@ -49,7 +49,7 @@ describe("This App will send an Email by Gmail", function() {
 	{
         var gmailInboxPage = new GmailInboxPage();
         gmailInboxPage.clickComposeAnEmailButton();
-        gmailInboxPage.setReceiver('esneider.m97@gmail.com');
+        gmailInboxPage.setReceiver('victor.giraldo@yuxiglobal.com');
         gmailInboxPage.setSubject('test');
         gmailInboxPage.setTextMessage('test');
         gmailInboxPage.clickSendButton();
